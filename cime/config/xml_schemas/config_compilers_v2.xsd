@@ -141,6 +141,7 @@
     <xs:choice>
       <xs:element name="ALBANY_PATH" type="systemPath"/>
       <xs:element name="CFLAGS" type="flagsVar"/>
+      <xs:element name="CXXFLAGS" type="flagsVar"/>
       <xs:element name="CMAKE_OPTS" type="flagsVar"/>
       <xs:element name="CONFIG_ARGS" type="flagsVar"/>
       <xs:element name="CONFIG_SHELL" type="systemPath"/>
@@ -182,6 +183,7 @@
       <xs:element name="SLIBS" type="flagsVar"/>
       <xs:element name="SUPPORTS_CXX" type="upperBoolean"/>
       <xs:element name="TRILINOS_PATH" type="systemPath"/>
+      <xs:element name="KOKKOS_PATH" type="systemPath"/>
     </xs:choice>
   </xs:group>
 
